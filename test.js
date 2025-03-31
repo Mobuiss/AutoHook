@@ -1,4 +1,4 @@
-// var targetClassName = "sg.vantagepoint.uncrackable1.MainActivity$1"
+var targetClassName = "sg.vantagepoint.uncrackable1.MainActivity$1"
 // function ListClassLoader() {
 //     Java.enumerateClassLoaders({
 //         onMatch: function (loader) {

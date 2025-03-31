@@ -107,7 +107,7 @@ frida-ps -U
 
 **`jadx-gui`**查看发现UnCrackable-Level1的相应事件如下
 
-![](.\pic\image-20240922194306973.png)
+![image-20240922194306973](.\pic\image-20240922194306973.png)
 
 我们直接把`system.exit(0)`给删去就可以使app不退出
 
@@ -182,7 +182,7 @@ frida -U -f owasp.mstg.uncrackable1 -l test.js
 
 可以发现，点击按钮后app不再终止
 
-![](.\pic\image-20240922202346430.png)
+![image-20240922202346430](.\pic\image-20240922202346430.png)
 
 ## 替换原理说明
 
