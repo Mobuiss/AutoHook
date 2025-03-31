@@ -107,7 +107,7 @@ frida-ps -U
 
 **`jadx-gui`**查看发现UnCrackable-Level1的相应事件如下
 
-![image-20240922194306973](.\pic\image-20240922194306973.png)
+<img src=".\pic\image-20240922194306973.png" alt="image-20240922194306973"  />
 
 我们直接把`system.exit(0)`给删去就可以使app不退出
 
@@ -148,7 +148,7 @@ java -jar .\smali-2.5.2.jar a .\UnCrackable-Level1\out\ -o .\UnCrackable-Level1\
 
 可以使用**`jadx-gui`**查看逻辑是否更改：
 
-![image-20250331185113923](.\pic\image-20250331185113923.png)
+<img src=".\pic\image-20250331185113923.png" alt="image-20250331185113923"  />
 
 可以发现，`system.exit(0)`确实被我们注释掉了
 
@@ -182,7 +182,7 @@ frida -U -f owasp.mstg.uncrackable1 -l test.js
 
 可以发现，点击按钮后app不再终止
 
-![image-20240922202346430](.\pic\image-20240922202346430.png)
+<img src=".\pic\image-20240922202346430.png" alt="image-20240922202346430"  />
 
 ## 替换原理说明
 
