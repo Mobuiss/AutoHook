@@ -9,7 +9,7 @@ import android.widget.EditText;
 import sg.vantagepoint.a.b;
 import sg.vantagepoint.a.c;
 
-/* loaded from: C:\Users\31541\Desktop\CS\software\download\UnCrackable-Level1\out.dex */
+/* loaded from: C:\Users\31541\Desktop\CS\workdir\AutoHook\UnCrackable-Level1\out.dex */
 public class MainActivity extends Activity {
     private void a(String str) {
         AlertDialog create = new AlertDialog.Builder(this).create();

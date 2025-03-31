@@ -41,7 +41,7 @@
 
     if-eqz v4, :cond_22
 
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
     return v0
 
@@ -69,7 +69,7 @@
 
     if-eqz v0, :cond_e
 
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
     return v0
 
@@ -121,7 +121,7 @@
 
     if-eqz v4, :cond_26
 
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
     return v0
 
