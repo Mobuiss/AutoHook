@@ -103,7 +103,7 @@ chmod 755 frida-server
 frida-ps -U
 ```
 
-### 修改dex
+### 修改dex(实操)
 
 #### 问题分析
 
